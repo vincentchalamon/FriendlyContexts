@@ -55,6 +55,12 @@ Command output can be partially tested, this is useful is you don't care about o
   """
 ```
 
+Or you can only search for a string
+
+```gherkin
+   And I should see "My string" in the command output
+```
+
 **What if my command should throw an exception ?**
 
 Sometimes, you want to manage an exception while executing your command. There are 2 ways to test it:
